@@ -5,6 +5,9 @@ body
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(132deg, #ec5218, #1665c1);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
 
 }
 .team-section{
@@ -29,14 +32,17 @@ body
 {   
     width: 100%;
     height: auto;
+/*    min-height: 120px;*/
 /*    background-color: black;*/
-    position: absolute;
-    top: 150%;
+    position: relative;
+    top: auto;
     transform: translateY(-50%);
      
+/*
     background: linear-gradient(132deg, #ec5218, #1665c1);
     background-size: 400% 400%;
     animation: BackgroundGradient 30s ease infinite;
+*/
 }
 @keyframes BackgroundGradient {
     0% {background-position: 0% 50%;}
